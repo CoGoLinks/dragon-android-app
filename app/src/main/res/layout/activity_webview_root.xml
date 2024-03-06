@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".webview.WebViewRootActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/url_textarea"
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:background="@drawable/edit_background"
+            android:hint="请输入要访问的URL"
+            android:gravity="top"
+            android:layout_margin="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/clear_btn"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_margin="10dp"
+                    android:text="清除" />
+                <Button
+                    android:id="@+id/visite_btn"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_margin="10dp"
+                    android:text="访问" />
+            </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
