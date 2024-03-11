@@ -47,7 +47,7 @@ public class WebViewActivity extends AppCompatActivity {
                 public boolean shouldOverrideUrlLoading(WebView view, String url) {
                     Log.d("webView", "不在新窗口，直接加载: url:" + url);
                     view.loadUrl(url);
-                    return true;
+                    return false;
                 }
             });
             webView.loadUrl(url);
