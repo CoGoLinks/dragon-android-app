@@ -27,7 +27,7 @@ public class WebViewRootActivity extends AppCompatActivity {
       setContentView(R.layout.activity_webview_root);
       // URL的输入框
       urlTextarea = findViewById(R.id.url_textarea);
-      // urlTextarea.setText("https://icts-uat.suixingpay.com/wallet-h5/home?rootAccountId=2608e1b32d0df36b70ceb446fded418e&busUserId=06409663226af2f3114485aa4e0a23b4&outTradeNo=d41d8cd98f00b204e9800998ecf8427e&userCode=d41d8cd98f00b204e9800998ecf8427e&merchantGrade=2&action=mer_active&sign=e8y5J7z9eeX7Nc02ZeWb02i2Odi7JchbbmRyb2lkIiwidmVyc2lvbiI6IjguNC4wIiwibW9kZWwiOiJSZWRtaSBOb3RlIDggUHJvIiwidGltZSI6MTcwODkzNTU2MiwiaWQiOiIxMDMyOTIiLCJ0b2tlbiI6IjU5MzlkZjhiNjYxNjY1MTFhOGYzZjUyM2IzYjYwOTAzIn0O0O0O");
+//      urlTextarea.setText("https://icts-sit.suixingpay.com/wallet-h5/login?rootAccountId=f45f51495207e0b0e193e36bd7465aaf&busUserId=d41d8cd98f00b204e9800998ecf8427e&outTradeNo=d41d8cd98f00b204e9800998ecf8427e&mchId=888000000005009&merchantGrade=2&userCode=88959447c063bd64d33373f62afcbb45&merchantId=&mchName=苏州市德寿堂药房有限公司&sign=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnZkWFJVY21Ga1pVNXZJam9pSWl3aWNtOXZkRUZqWTI5MWJuUkpaQ0k2SWxBeU5ETTBPRGswTVRjd01UQTVPVGt5T1RZaUxDSmlkWE5WYzJWeVNXUWlPaUlpTENKMWMyVnlRMjlrWlNJNklsVXlORE0xTURZeU1EYzNOelEyTURFeU1UWWlmUS5CYWZzaExrdzVPcHVqRk9uMmQ4UG05c1pZWkZFRjgtYkExNmdvWllqVGYw");
       // 清除按钮
       clearBtn = findViewById(R.id.clear_btn);
       // 访问按钮

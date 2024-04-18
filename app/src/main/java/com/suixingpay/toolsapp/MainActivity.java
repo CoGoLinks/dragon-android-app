@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             holder.rootView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    Log.d("MainActivity", "onClick position:" + position);
                     // 点击了webview
                     if(position == 0 ) {
                         Intent intent = new Intent(MainActivity.this, WebViewRootActivity.class);
